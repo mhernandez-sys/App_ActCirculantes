@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ui.home.HomeFragment" >
-
-
+    android:layout_height="wrap_content"
+    tools:context=".ui.home.HomeFragment"
+    android:background="@color/terciario"
+    android:orientation="vertical">
 
     <EditText
         android:id="@+id/et_rfid"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="Primeros pasos github"
         android:focusable="true"
@@ -32,7 +32,8 @@
         app:layout_constraintTop_toBottomOf="@id/et_rfid"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="8dp" />
+        android:layout_marginTop="8dp"
+        tools:ignore="Suspicious0dp" />
 
     <TextView
         android:id="@+id/tv_descripcion"
@@ -93,32 +94,77 @@
         android:layout_marginTop="8dp" />
 
     <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintTop_toBottomOf="@id/sp_asig_a"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="16dp"
-        android:layout_gravity="center">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-        <Button
-            android:id="@+id/btn_guardar"
-            android:layout_width="0dp"
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="GUARDAR"
-            android:textColor="@android:color/white"
-            android:backgroundTint="@color/botones" />
+            android:text="Rama home_fragment"
+            android:background="@color/secudario"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:layout_margin="6dp"
+            />
 
-        <Button
-            android:id="@+id/btn_cancelar"
-            android:layout_width="0dp"
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="CANCELAR"
-            android:textColor="@android:color/white"
-            android:backgroundTint="@color/botones"
-            android:layout_marginStart="8dp" />
+            android:text="Curso git y git hub"
+            android:layout_marginTop="10dp"
+            android:background="@color/botones"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:gravity="center"/>
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:minHeight="48dp"
+            android:background="@color/azulcielo"
+            android:padding="@dimen/cuatro_dp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Año de nacimiento:"
+            android:background="@color/botones"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:gravity="center"
+            />
+
+        <Spinner
+            android:id="@+id/spinner4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:minHeight="48dp"
+            android:padding="@dimen/cuatro_dp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Motivo de baja"
+            android:background="@color/botones"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:gravity="center"/>
+
+        <Spinner
+            android:id="@+id/spinner5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:minHeight="48dp"
+            android:padding="@dimen/cuatro_dp" />
     </LinearLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
