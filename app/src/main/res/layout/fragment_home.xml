@@ -19,7 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Rama home_fragment"
-            android:background="@color/sombreado"
+            android:background="@color/secudario"
             android:textColor="@color/white"
             android:gravity="center"
             android:textSize="22sp"
@@ -30,7 +30,7 @@
             android:id="@+id/textView10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Nombre de usuario"
+            android:text="Curso git y git hub"
             android:layout_marginTop="10dp"
             android:background="@color/botones"
             android:textColor="@color/white"
@@ -43,6 +43,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:minHeight="48dp"
+            android:background="@color/azulcielo"
             android:padding="@dimen/cuatro_dp" />
 
         <TextView
