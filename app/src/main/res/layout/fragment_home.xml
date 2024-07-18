@@ -42,7 +42,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:padding="@dimen/cuatro_dp"/>
+            android:minHeight="48dp"
+            android:padding="@dimen/cuatro_dp" />
 
         <TextView
             android:id="@+id/textView11"
@@ -60,7 +61,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:padding="@dimen/cuatro_dp"/>
+            android:minHeight="48dp"
+            android:padding="@dimen/cuatro_dp" />
 
         <TextView
             android:id="@+id/textView12"
@@ -77,6 +79,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:padding="@dimen/cuatro_dp"/>
+            android:minHeight="48dp"
+            android:padding="@dimen/cuatro_dp" />
     </LinearLayout>
 </LinearLayout>
