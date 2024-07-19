@@ -48,7 +48,7 @@
             android:id="@+id/textView11"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Se modifico en git hub"
+            android:text="Año de nacimiento "
             android:background="@color/botones"
             android:textColor="@color/white"
             android:textSize="18sp"
