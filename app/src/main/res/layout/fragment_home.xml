@@ -16,13 +16,12 @@
             android:id="@+id/textView9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Cambio realizado por manuel "
-            android:background="@color/teal_200"
-            android:textColor="@color/white"
-            android:gravity="center"
-            android:textSize="22sp"
             android:layout_margin="6dp"
-            />
+            android:background="@color/teal_200"
+            android:gravity="center"
+            android:text="Cambio realizado por manuel "
+            android:textColor="#546E7A"
+            android:textSize="30sp" />
 
         <TextView
             android:id="@+id/textView10"

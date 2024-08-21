@@ -24,6 +24,8 @@ private FragmentHomeBinding binding;
          return root;
     }
 
+    ///Hola como estas 
+
 @Override
     public void onDestroyView() {
         super.onDestroyView();
