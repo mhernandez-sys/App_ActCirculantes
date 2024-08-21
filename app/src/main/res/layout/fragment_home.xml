@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -79,5 +80,19 @@
             android:layout_marginTop="4dp"
             android:minHeight="48dp"
             android:padding="@dimen/cuatro_dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/a_azul"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/agregar_producto"
+            android:layout_gravity="center"/>
     </LinearLayout>
 </LinearLayout>

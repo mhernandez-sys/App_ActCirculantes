@@ -13,3 +13,8 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+#Cosas que no se quieren enviar al repositorio 
+#Imagenes que no se quieren agregar
+*.png 
+*.jpg
