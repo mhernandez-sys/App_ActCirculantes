@@ -61,13 +61,13 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:minHeight="48dp"
-            android:padding="@dimen/cuatro_dp" />
+            android:padding="@dimen/cuat|p" />
 
         <TextView
             android:id="@+id/textView12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Motivo de baja"
+            android:text="Cambios en la aplicacion para ALTAS"
             android:background="@color/botones"
             android:textColor="@color/white"
             android:textSize="18sp"
