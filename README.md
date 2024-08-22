@@ -1,6 +1,6 @@
 # App_ActCirculantes
 Esta aplicación es desarrollada a partir de dar entradas y salidas a los artículos de un almacén
-# App_ActCirculantes
+ App_ActCirculantes
 # App_Circulantes
 
 # App curso git
@@ -15,3 +15,4 @@ Esta aplicación es desarrollada a partir de dar entradas y salidas a los artíc
 *Para todo tipo de progamador (Movil, Web, etc)
 *Este commit si esta completo 
 **Espero no me regañen**
+#Fecga de creacion 2024
