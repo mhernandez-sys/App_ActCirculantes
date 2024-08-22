@@ -8,3 +8,4 @@ Esta aplicación es desarrollada a partir de dar entradas y salidas a los artíc
 *Alumno Manuel
 *Icluye soluciones de preguntas 
 *con ejemplos reales y trabajo en equipo (Con ejempolos)
+*Para todo tipo de progamador (Movil, Web, etc)
