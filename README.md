@@ -2,3 +2,7 @@
 Esta aplicación es desarrollada a partir de dar entradas y salidas a los artículos de un almacén
 # App_ActCirculantes
 # App_Circulantes
+
+# App curso git
+*App creada para el curso de git 
+*Alumno Manuel
