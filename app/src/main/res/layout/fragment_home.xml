@@ -61,7 +61,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:minHeight="48dp"
-            android:padding="@dimen/cuat|p" />
+            android:padding="@dimen/cuatro_dp" />
 
         <TextView
             android:id="@+id/textView12"
